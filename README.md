@@ -31,9 +31,9 @@ By leveraging an **ANTLR4 Island Grammar**, this pipeline ingests complex corpor
    * ```pip install antlr4-python3-runtime==4.9.3```
 * #### Make sure the antlr-4.9.3-complete.jar file is located in the root of your project directory. (If missing, you can download it directly from the official ANTLR website)
 * #### After making SAS.g4 grammar use below command to auto-generate SASLexer.py, SASParser.py, and SASListener.py in your directory.
-  * java -jar antlr-4.9.3-complete.jar -Dlanguage=Python3 SAS.g4
+  * ```java -jar antlr-4.9.3-complete.jar -Dlanguage=Python3 SAS.g4```
 * #### Run the following command to extract the SAS metadata
-  * python extract_metadata.py "Input folder directory path" "Output Folder directory path"
+  * ```python extract_metadata.py "Input folder directory path" "Output Folder directory path" ```
 
 ## 🎯 Core Extraction Targets
 
